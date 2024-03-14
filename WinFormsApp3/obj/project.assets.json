@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Света\\source\\repos\\WinFormsApp3\\WinFormsApp3\\WinFormsApp3.csproj",
+      "projectUniqueName": "C:\\Users\\Света\\Source\\Repos\\Zshdun\\AbstractFactory\\WinFormsApp3\\WinFormsApp3.csproj",
       "projectName": "WinFormsApp3",
-      "projectPath": "C:\\Users\\Света\\source\\repos\\WinFormsApp3\\WinFormsApp3\\WinFormsApp3.csproj",
+      "projectPath": "C:\\Users\\Света\\Source\\Repos\\Zshdun\\AbstractFactory\\WinFormsApp3\\WinFormsApp3.csproj",
       "packagesPath": "C:\\Users\\Света\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Света\\source\\repos\\WinFormsApp3\\WinFormsApp3\\obj\\",
+      "outputPath": "C:\\Users\\Света\\Source\\Repos\\Zshdun\\AbstractFactory\\WinFormsApp3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Света\\AppData\\Roaming\\NuGet\\NuGet.Config",

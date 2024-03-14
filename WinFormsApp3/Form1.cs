@@ -1,41 +1,88 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace WinFormsApp3
 {
     public partial class Form1 : Form
     {
-        Robot currentRobot = null;
+        Robot redRobot = null;
+        Robot blueRobot = null;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void CRR_click(object sender, EventArgs e)
         {
-            currentRobot = new Robot(new JakobsRobot());
-            MessageBox.Show("Jakobs Robot Created");
+            string RModel = RedRobotType.SelectedItem.ToString();
+            if (RModel == "Jakobs")
+                redRobot = new Robot(new JakobsRobot());
+            else if (RModel == "Maliwan")
+                redRobot = new Robot(new MaliwanRobot());
+            else if (RModel == "Torgue")
+                redRobot = new Robot(new TorgueRobot());
+            else if (RModel == "Custom")
+            {
+                redRobot = new Robot(new JakobsRobot());
+                string RWeapon=comboBox1.SelectedItem.ToString();
+                string RArmor=comboBox2.SelectedItem.ToString();
+                string RLegs=comboBox3.SelectedItem.ToString();
+                if (RWeapon == "TorgueRPG") { redRobot.eqweapon = new TorgueRPG(); }
+                if (RWeapon == "MaliwanLaser") { redRobot.eqweapon = new MaliwanLaser(); }
+                if (RArmor=="TorgueArmor") { redRobot.eqbody = new TorgueBody(); }
+                if (RArmor == "MaliwanArmor") { redRobot.eqbody = new MaliwanBody(); }
+                if (RLegs== "TorgueLegs") { redRobot.eqlegs = new TorgueLegs(); }
+                if (RLegs == "MaliwanLegs") { redRobot.eqlegs = new MaliwanLegs(); }
+            }
+            MessageBox.Show("Red Robot Created");
         }
 
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    if (currentRobot != null)
-        //    {
-        //        MessageBox.Show("Current Robot Stats:\nRange: " + currentRobot.weapon + "\nDamage: " + equippedWeapon.Damage);
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("Create a robot");
-        //    }
-        //}
-        private void BuyBow_Click(object sender, EventArgs e)
+
+        private void CBR_click(object sender, EventArgs e)
         {
-            currentRobot = new Robot(new MaliwanRobot());
-            MessageBox.Show("Maliwan Robot Created!");
+            string RModel = BlueRobotType.SelectedItem.ToString();
+            if (RModel == "Jakobs")
+                blueRobot = new Robot(new JakobsRobot());
+            else if (RModel == "Maliwan")
+                blueRobot = new Robot(new MaliwanRobot());
+            else if (RModel == "Torgue")
+                blueRobot = new Robot(new TorgueRobot());
+            else if (RModel == "Custom")
+            {
+                blueRobot = new Robot(new JakobsRobot());
+                string BWeapon = comboBox6.SelectedItem.ToString();
+                string BArmor = comboBox5.SelectedItem.ToString();
+                string BLegs = comboBox4.SelectedItem.ToString();
+                if (BWeapon == "TorgueRPG") { blueRobot.eqweapon = new TorgueRPG(); }
+                if (BWeapon == "MaliwanLaser") { blueRobot.eqweapon = new MaliwanLaser(); }
+                if (BArmor == "TorgueArmor") { blueRobot.eqbody = new TorgueBody(); }
+                if (BArmor == "MaliwanArmor") { blueRobot.eqbody = new MaliwanBody(); }
+                if (BLegs == "TorgueLegs") { blueRobot.eqlegs = new TorgueLegs(); }
+                if (BLegs == "MaliwanLegs") { blueRobot.eqlegs = new MaliwanLegs(); }
+            }
+            MessageBox.Show("Blue Robot Created");
+        }
+        private void CheckStats_Click(object sender, EventArgs e)
+        {
+            if ((redRobot != null) && (blueRobot != null))
+            {
+                int rdmg = redRobot.smth();
+                string rwpnName = redRobot.smth2();
+                int bdmg = blueRobot.smth();
+                string bwpnName = blueRobot.smth2();
+                MessageBox.Show("Red Robot \n Weapon: " + rwpnName + "\n Weapon damage: " + rdmg + "\n \n Blue robot \n Weapon: " + bwpnName + "\n Weapon damage: " + bdmg);
+
+            }
+            else
+            {
+                MessageBox.Show("Create a robot");
+            }
         }
         abstract class Weapon
         {
             public abstract int Range { get; }
             public abstract int Damage { get; }
             public abstract int Fire_Rate { get; }
-            public abstract string Manufacturer { get; }
+            public abstract string Name { get; }
         }
 
         abstract class Body
@@ -65,9 +112,9 @@ namespace WinFormsApp3
             {
                 get { return 5; }
             }
-            public override string Manufacturer
+            public override string Name
             {
-                get { return "Jakobs"; }
+                get { return "JakobsTurret"; }
             }
         }
         class MaliwanLaser : Weapon
@@ -86,9 +133,9 @@ namespace WinFormsApp3
             {
                 get { return 1; }
             }
-            public override string Manufacturer
+            public override string Name
             {
-                get { return "Maliwan"; }
+                get { return "MaliwanLaser"; }
             }
         }
         class TorgueRPG : Weapon
@@ -107,9 +154,9 @@ namespace WinFormsApp3
             {
                 get { return 3; }
             }
-            public override string Manufacturer
+            public override string Name
             {
-                get { return "Torgue"; }
+                get { return "TorgueRPG"; }
             }
         }
 
@@ -236,16 +283,78 @@ namespace WinFormsApp3
                 return new TorgueLegs();
             }
         }
+
+
         class Robot
         {
-            private Weapon weapon;
-            private Body body;
-            private Legs legs;
+            public Weapon eqweapon;
+            public Body eqbody;
+            public Legs eqlegs;
             public Robot(RobotFactory factory)
-            { weapon = factory.CreateWeapon();
-              body = factory.CreateBody();
-              legs = factory.CreateLegs();
+            {
+                eqweapon = factory.CreateWeapon();
+                eqbody = factory.CreateBody();
+                eqlegs = factory.CreateLegs();
+
+
+            }
+            public int smth()
+            {
+                return eqweapon.Damage;
+            }
+            public string smth2()
+            {
+                return eqweapon.Name;
             }
         }
+
+        private void RedRobotModel_SelectedValueChanged(object sender, EventArgs e)
+        {
+            string RModel = RedRobotType.SelectedItem.ToString();
+            if (RModel == "Custom")
+            {
+                comboBox1.Show();
+                comboBox2.Show();
+                comboBox3.Show();
+                label5.Show();
+                label6.Show();
+                label7.Show();
+            }
+            else
+            {
+                label5.Hide();
+                label6.Hide();
+                label7.Hide();
+            }
+        }
+
+
+        private void BlueRobotType_SelectedValueChanged(object sender, EventArgs e)
+        {
+            string BModel = BlueRobotType.SelectedItem.ToString();
+            if (BModel == "Custom")
+            {
+                comboBox4.Show();
+                comboBox5.Show();
+                comboBox6.Show();
+                label8.Show();
+                label9.Show();
+                label10.Show();
+            }
+            else
+            {
+                comboBox4.Hide();
+                comboBox5.Hide();
+                comboBox6.Hide();
+                label8.Hide();
+                label9.Hide();
+                label10.Hide();
+            }
+        }
+        private void Battle_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Work in progress sorry :p");
+        }
+
     }
 }
