@@ -1,0 +1,279 @@
+<mxfile host="app.diagrams.net" modified="2024-03-15T02:53:06.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="86K7lZgLeidZD-Wqmjqq" version="24.0.6" type="device">
+  <diagram name="Страница — 1" id="Ap-MekbI7WmkVw7BJpNI">
+    <mxGraphModel dx="1889" dy="1748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-1" value="Weapon" style="html=1;whiteSpace=wrap;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-1040" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-2" value="TorgueRPG" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="-930" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-3" value="MaliwanLaser" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-930" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-4" value="JakobsTurret" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="-930" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-5" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U2_SlsLD3kauiRYNEJkW-3" target="U2_SlsLD3kauiRYNEJkW-1">
+          <mxGeometry x="0.1538" y="19" width="160" relative="1" as="geometry">
+            <mxPoint x="-610" y="-940" as="sourcePoint" />
+            <mxPoint x="-610.29" y="-990" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U2_SlsLD3kauiRYNEJkW-4" target="U2_SlsLD3kauiRYNEJkW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-800" y="-1000" as="sourcePoint" />
+            <mxPoint x="-470" y="-950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-745" y="-950" />
+              <mxPoint x="-485" y="-950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-7" value="Armor" style="html=1;whiteSpace=wrap;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-1050" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-8" value="TorgueArmor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="-940" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-9" value="MaliwanArmor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-940" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-10" value="JakobsArmor" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="-940" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-11" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U2_SlsLD3kauiRYNEJkW-9" target="U2_SlsLD3kauiRYNEJkW-7">
+          <mxGeometry x="0.1538" y="19" width="160" relative="1" as="geometry">
+            <mxPoint x="-90" y="-950" as="sourcePoint" />
+            <mxPoint x="-90.28999999999996" y="-1000" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U2_SlsLD3kauiRYNEJkW-10" target="U2_SlsLD3kauiRYNEJkW-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="-1010" as="sourcePoint" />
+            <mxPoint x="50" y="-960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-225" y="-960" />
+              <mxPoint x="35" y="-960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-13" value="Legs" style="html=1;whiteSpace=wrap;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="310" y="-1040" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-14" value="TorgueLegs" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-930" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-15" value="MaliwanLegs" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-930" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-16" value="JakobsLegs" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="-930" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-17" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U2_SlsLD3kauiRYNEJkW-15" target="U2_SlsLD3kauiRYNEJkW-13">
+          <mxGeometry x="0.1538" y="19" width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="-940" as="sourcePoint" />
+            <mxPoint x="369.71000000000004" y="-990" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U2_SlsLD3kauiRYNEJkW-16" target="U2_SlsLD3kauiRYNEJkW-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="-1000" as="sourcePoint" />
+            <mxPoint x="510" y="-950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="-950" />
+              <mxPoint x="495" y="-950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-19" value="JakobsFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-780" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-20" value="+ CreateWeapon():Weapon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-19">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-21" value="+ CreateArmor():Armor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-19">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-22" value="+ CreateLegs():Legs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-19">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-31" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RobotFactory&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-570" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-32" value="MaliwanFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-780" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-33" value="+ CreateWeapon():Weapon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-32">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-34" value="+ CreateArmor():Armor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-32">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-35" value="+ CreateLegs():Legs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-32">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-36" value="TorgueFactory" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-780" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-37" value="+ CreateWeapon():Weapon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-36">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-38" value="+ CreateArmor():Armor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-36">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-39" value="+ CreateLegs():Legs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="U2_SlsLD3kauiRYNEJkW-36">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-43" value="+ CreateArmor():Armor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-484" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-44" value="+ CreateLegs():Legs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-458" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-45" value="+ CreateWeapon():Weapon" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="-513" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-46" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.444;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U2_SlsLD3kauiRYNEJkW-22" target="U2_SlsLD3kauiRYNEJkW-31">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-310" y="-530" as="sourcePoint" />
+            <mxPoint x="-150" y="-530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-529" y="-640" />
+              <mxPoint x="-320" y="-640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.564;entryY=1.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="-640" as="sourcePoint" />
+            <mxPoint x="-210" y="-560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-310" y="-640" />
+              <mxPoint x="-290" y="-640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.555;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="-640" as="sourcePoint" />
+            <mxPoint x="-50" y="-670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-290" y="-641" />
+              <mxPoint x="-270" y="-641" />
+              <mxPoint x="-50" y="-640" />
+              <mxPoint x="-50" y="-660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-50" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.416;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;spacing=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-4">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-530" y="-779.9999999999999" as="sourcePoint" />
+            <mxPoint x="-490.15999999999985" y="-877.65" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-530" y="-800" />
+              <mxPoint x="-754" y="-800" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-52" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;entryX=0.457;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-10">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-520" y="-782" as="sourcePoint" />
+            <mxPoint x="-230" y="-870" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-520" y="-800" />
+              <mxPoint x="-230" y="-800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-54" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-16">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-520" y="-781" as="sourcePoint" />
+            <mxPoint x="-230" y="-890" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-520" y="-799" />
+              <mxPoint x="235" y="-799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-55" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;" edge="1" parent="1">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-300" y="-781" as="sourcePoint" />
+            <mxPoint x="-90" y="-890" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-300" y="-820" />
+              <mxPoint x="-90" y="-820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-56" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-3">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-350.04" y="-781" as="sourcePoint" />
+            <mxPoint x="-140.04" y="-890" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-350" y="-820" />
+              <mxPoint x="-620" y="-820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-57" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-15">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-300" y="-781" as="sourcePoint" />
+            <mxPoint x="-90" y="-890" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-300" y="-820" />
+              <mxPoint x="370" y="-820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-58" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;" edge="1" parent="1">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-60" y="-781" as="sourcePoint" />
+            <mxPoint x="40" y="-890" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-60" y="-840" />
+              <mxPoint x="40" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-59" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-2">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-100" y="-781" as="sourcePoint" />
+            <mxPoint y="-890" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-100" y="-840" />
+              <mxPoint x="-490" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U2_SlsLD3kauiRYNEJkW-60" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;spacing=0;" edge="1" parent="1" target="U2_SlsLD3kauiRYNEJkW-14">
+          <mxGeometry x="0.0025" width="160" relative="1" as="geometry">
+            <mxPoint x="-60" y="-781" as="sourcePoint" />
+            <mxPoint x="40" y="-890" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-60" y="-840" />
+              <mxPoint x="500" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
